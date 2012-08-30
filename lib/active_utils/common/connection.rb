@@ -10,7 +10,7 @@ module ActiveMerchant
     MAX_RETRIES = 3
     OPEN_TIMEOUT = 60
     READ_TIMEOUT = 60
-    VERIFY_PEER = true
+    VERIFY_PEER = false
     RETRY_SAFE = false
     RUBY_184_POST_HEADERS = { "Content-Type" => "application/x-www-form-urlencoded" }
 
